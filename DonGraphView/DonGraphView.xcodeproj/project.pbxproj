@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B06B997BB2FE44CFDFB5C940 /* libPods-DonGraphView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F950A94296FFC46E2BCF04 /* libPods-DonGraphView.a */; };
+		F1D8F6EA21DCB08300FCB141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F6E921DCB08300FCB141 /* AppDelegate.m */; };
+		F1D8F6ED21DCB08300FCB141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F6EC21DCB08300FCB141 /* ViewController.m */; };
+		F1D8F6F021DCB08300FCB141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D8F6EE21DCB08300FCB141 /* Main.storyboard */; };
+		F1D8F6F221DCB08400FCB141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D8F6F121DCB08400FCB141 /* Assets.xcassets */; };
+		F1D8F6F521DCB08400FCB141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D8F6F321DCB08400FCB141 /* LaunchScreen.storyboard */; };
+		F1D8F6F821DCB08400FCB141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F6F721DCB08400FCB141 /* main.m */; };
+		F1D8F70221DCB08400FCB141 /* DonGraphViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F70121DCB08400FCB141 /* DonGraphViewTests.m */; };
+		F1D8F70D21DCB08400FCB141 /* DonGraphViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F70C21DCB08400FCB141 /* DonGraphViewUITests.m */; };
+		F1D8F73521DCB7B900FCB141 /* DonGraphPointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F73421DCB7B900FCB141 /* DonGraphPointModel.m */; };
+		F1D8F73821DCBB3B00FCB141 /* DonGraphBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F73721DCBB3B00FCB141 /* DonGraphBarModel.m */; };
+		F1D8F74021DCBB5C00FCB141 /* DonGraphScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F73B21DCBB5C00FCB141 /* DonGraphScrollView.m */; };
+		F1D8F74121DCBB5C00FCB141 /* DonBarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F73D21DCBB5C00FCB141 /* DonBarCollectionViewCell.m */; };
+		F1D8F74221DCBB5C00FCB141 /* DonLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F73F21DCBB5C00FCB141 /* DonLineView.m */; };
+		F1D8F74521DCBBB100FCB141 /* UIColor+DonHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F74421DCBBB100FCB141 /* UIColor+DonHexColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1D8F6FE21DCB08400FCB141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D8F6DD21DCB08300FCB141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D8F6E421DCB08300FCB141;
+			remoteInfo = DonGraphView;
+		};
+		F1D8F70921DCB08400FCB141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D8F6DD21DCB08300FCB141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D8F6E421DCB08300FCB141;
+			remoteInfo = DonGraphView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BBF877DB1274518E398200A /* Pods-DonGraphView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonGraphView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonGraphView/Pods-DonGraphView.release.xcconfig"; sourceTree = "<group>"; };
+		543EF6D5A8B6D1B288D6D258 /* Pods-DonGraphView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonGraphView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonGraphView/Pods-DonGraphView.debug.xcconfig"; sourceTree = "<group>"; };
+		A7F950A94296FFC46E2BCF04 /* libPods-DonGraphView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DonGraphView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D8F6E521DCB08300FCB141 /* DonGraphView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonGraphView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D8F6E821DCB08300FCB141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1D8F6E921DCB08300FCB141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1D8F6EB21DCB08300FCB141 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1D8F6EC21DCB08300FCB141 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1D8F6EF21DCB08300FCB141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1D8F6F121DCB08400FCB141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1D8F6F421DCB08400FCB141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1D8F6F621DCB08400FCB141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D8F6F721DCB08400FCB141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1D8F6FD21DCB08400FCB141 /* DonGraphViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonGraphViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D8F70121DCB08400FCB141 /* DonGraphViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DonGraphViewTests.m; sourceTree = "<group>"; };
+		F1D8F70321DCB08400FCB141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D8F70821DCB08400FCB141 /* DonGraphViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonGraphViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D8F70C21DCB08400FCB141 /* DonGraphViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DonGraphViewUITests.m; sourceTree = "<group>"; };
+		F1D8F70E21DCB08400FCB141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D8F73321DCB7B900FCB141 /* DonGraphPointModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonGraphPointModel.h; sourceTree = "<group>"; };
+		F1D8F73421DCB7B900FCB141 /* DonGraphPointModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DonGraphPointModel.m; sourceTree = "<group>"; };
+		F1D8F73621DCBB3B00FCB141 /* DonGraphBarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonGraphBarModel.h; sourceTree = "<group>"; };
+		F1D8F73721DCBB3B00FCB141 /* DonGraphBarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonGraphBarModel.m; sourceTree = "<group>"; };
+		F1D8F73A21DCBB5C00FCB141 /* DonGraphScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonGraphScrollView.h; sourceTree = "<group>"; };
+		F1D8F73B21DCBB5C00FCB141 /* DonGraphScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonGraphScrollView.m; sourceTree = "<group>"; };
+		F1D8F73C21DCBB5C00FCB141 /* DonLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonLineView.h; sourceTree = "<group>"; };
+		F1D8F73D21DCBB5C00FCB141 /* DonBarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonBarCollectionViewCell.m; sourceTree = "<group>"; };
+		F1D8F73E21DCBB5C00FCB141 /* DonBarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonBarCollectionViewCell.h; sourceTree = "<group>"; };
+		F1D8F73F21DCBB5C00FCB141 /* DonLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonLineView.m; sourceTree = "<group>"; };
+		F1D8F74321DCBBB100FCB141 /* UIColor+DonHexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+DonHexColor.h"; sourceTree = "<group>"; };
+		F1D8F74421DCBBB100FCB141 /* UIColor+DonHexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DonHexColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1D8F6E221DCB08300FCB141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06B997BB2FE44CFDFB5C940 /* libPods-DonGraphView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8F6FA21DCB08400FCB141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8F70521DCB08400FCB141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FA9C7E83CD509BADDED47DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7F950A94296FFC46E2BCF04 /* libPods-DonGraphView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7986E77EE4CE93B519BB49BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				543EF6D5A8B6D1B288D6D258 /* Pods-DonGraphView.debug.xcconfig */,
+				1BBF877DB1274518E398200A /* Pods-DonGraphView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1D8F6DC21DCB08300FCB141 = {
+			isa = PBXGroup;
+			children = (
+				F1D8F6E721DCB08300FCB141 /* DonGraphView */,
+				F1D8F70021DCB08400FCB141 /* DonGraphViewTests */,
+				F1D8F70B21DCB08400FCB141 /* DonGraphViewUITests */,
+				F1D8F6E621DCB08300FCB141 /* Products */,
+				7986E77EE4CE93B519BB49BE /* Pods */,
+				4FA9C7E83CD509BADDED47DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1D8F6E621DCB08300FCB141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8F6E521DCB08300FCB141 /* DonGraphView.app */,
+				F1D8F6FD21DCB08400FCB141 /* DonGraphViewTests.xctest */,
+				F1D8F70821DCB08400FCB141 /* DonGraphViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D8F6E721DCB08300FCB141 /* DonGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8F6E821DCB08300FCB141 /* AppDelegate.h */,
+				F1D8F6E921DCB08300FCB141 /* AppDelegate.m */,
+				F1D8F6EB21DCB08300FCB141 /* ViewController.h */,
+				F1D8F6EC21DCB08300FCB141 /* ViewController.m */,
+				F1D8F73121DCB78A00FCB141 /* GraphView */,
+				F1D8F6EE21DCB08300FCB141 /* Main.storyboard */,
+				F1D8F6F121DCB08400FCB141 /* Assets.xcassets */,
+				F1D8F6F321DCB08400FCB141 /* LaunchScreen.storyboard */,
+				F1D8F6F621DCB08400FCB141 /* Info.plist */,
+				F1D8F6F721DCB08400FCB141 /* main.m */,
+			);
+			path = DonGraphView;
+			sourceTree = "<group>";
+		};
+		F1D8F70021DCB08400FCB141 /* DonGraphViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8F70121DCB08400FCB141 /* DonGraphViewTests.m */,
+				F1D8F70321DCB08400FCB141 /* Info.plist */,
+			);
+			path = DonGraphViewTests;
+			sourceTree = "<group>";
+		};
+		F1D8F70B21DCB08400FCB141 /* DonGraphViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8F70C21DCB08400FCB141 /* DonGraphViewUITests.m */,
+				F1D8F70E21DCB08400FCB141 /* Info.plist */,
+			);
+			path = DonGraphViewUITests;
+			sourceTree = "<group>";
+		};
+		F1D8F73121DCB78A00FCB141 /* GraphView */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8F74621DCBD1300FCB141 /* Category */,
+				F1D8F73921DCBB4600FCB141 /* View */,
+				F1D8F73221DCB79600FCB141 /* Model */,
+			);
+			path = GraphView;
+			sourceTree = "<group>";
+		};
+		F1D8F73221DCB79600FCB141 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8F73621DCBB3B00FCB141 /* DonGraphBarModel.h */,
+				F1D8F73721DCBB3B00FCB141 /* DonGraphBarModel.m */,
+				F1D8F73321DCB7B900FCB141 /* DonGraphPointModel.h */,
+				F1D8F73421DCB7B900FCB141 /* DonGraphPointModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1D8F73921DCBB4600FCB141 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8F73E21DCBB5C00FCB141 /* DonBarCollectionViewCell.h */,
+				F1D8F73D21DCBB5C00FCB141 /* DonBarCollectionViewCell.m */,
+				F1D8F73A21DCBB5C00FCB141 /* DonGraphScrollView.h */,
+				F1D8F73B21DCBB5C00FCB141 /* DonGraphScrollView.m */,
+				F1D8F73C21DCBB5C00FCB141 /* DonLineView.h */,
+				F1D8F73F21DCBB5C00FCB141 /* DonLineView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1D8F74621DCBD1300FCB141 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8F74321DCBBB100FCB141 /* UIColor+DonHexColor.h */,
+				F1D8F74421DCBBB100FCB141 /* UIColor+DonHexColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1D8F6E421DCB08300FCB141 /* DonGraphView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D8F71121DCB08400FCB141 /* Build configuration list for PBXNativeTarget "DonGraphView" */;
+			buildPhases = (
+				0EB910CF018394C06FE97D9A /* [CP] Check Pods Manifest.lock */,
+				F1D8F6E121DCB08300FCB141 /* Sources */,
+				F1D8F6E221DCB08300FCB141 /* Frameworks */,
+				F1D8F6E321DCB08300FCB141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonGraphView;
+			productName = DonGraphView;
+			productReference = F1D8F6E521DCB08300FCB141 /* DonGraphView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1D8F6FC21DCB08400FCB141 /* DonGraphViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D8F71421DCB08400FCB141 /* Build configuration list for PBXNativeTarget "DonGraphViewTests" */;
+			buildPhases = (
+				F1D8F6F921DCB08400FCB141 /* Sources */,
+				F1D8F6FA21DCB08400FCB141 /* Frameworks */,
+				F1D8F6FB21DCB08400FCB141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D8F6FF21DCB08400FCB141 /* PBXTargetDependency */,
+			);
+			name = DonGraphViewTests;
+			productName = DonGraphViewTests;
+			productReference = F1D8F6FD21DCB08400FCB141 /* DonGraphViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1D8F70721DCB08400FCB141 /* DonGraphViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D8F71721DCB08400FCB141 /* Build configuration list for PBXNativeTarget "DonGraphViewUITests" */;
+			buildPhases = (
+				F1D8F70421DCB08400FCB141 /* Sources */,
+				F1D8F70521DCB08400FCB141 /* Frameworks */,
+				F1D8F70621DCB08400FCB141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D8F70A21DCB08400FCB141 /* PBXTargetDependency */,
+			);
+			name = DonGraphViewUITests;
+			productName = DonGraphViewUITests;
+			productReference = F1D8F70821DCB08400FCB141 /* DonGraphViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1D8F6DD21DCB08300FCB141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Don;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = hongchao.li;
+				TargetAttributes = {
+					F1D8F6E421DCB08300FCB141 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F1D8F6FC21DCB08400FCB141 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F1D8F6E421DCB08300FCB141;
+					};
+					F1D8F70721DCB08400FCB141 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F1D8F6E421DCB08300FCB141;
+					};
+				};
+			};
+			buildConfigurationList = F1D8F6E021DCB08300FCB141 /* Build configuration list for PBXProject "DonGraphView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1D8F6DC21DCB08300FCB141;
+			productRefGroup = F1D8F6E621DCB08300FCB141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1D8F6E421DCB08300FCB141 /* DonGraphView */,
+				F1D8F6FC21DCB08400FCB141 /* DonGraphViewTests */,
+				F1D8F70721DCB08400FCB141 /* DonGraphViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1D8F6E321DCB08300FCB141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D8F6F521DCB08400FCB141 /* LaunchScreen.storyboard in Resources */,
+				F1D8F6F221DCB08400FCB141 /* Assets.xcassets in Resources */,
+				F1D8F6F021DCB08300FCB141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8F6FB21DCB08400FCB141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8F70621DCB08400FCB141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EB910CF018394C06FE97D9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonGraphView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1D8F6E121DCB08300FCB141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D8F74021DCBB5C00FCB141 /* DonGraphScrollView.m in Sources */,
+				F1D8F74121DCBB5C00FCB141 /* DonBarCollectionViewCell.m in Sources */,
+				F1D8F6ED21DCB08300FCB141 /* ViewController.m in Sources */,
+				F1D8F73521DCB7B900FCB141 /* DonGraphPointModel.m in Sources */,
+				F1D8F74521DCBBB100FCB141 /* UIColor+DonHexColor.m in Sources */,
+				F1D8F74221DCBB5C00FCB141 /* DonLineView.m in Sources */,
+				F1D8F6F821DCB08400FCB141 /* main.m in Sources */,
+				F1D8F6EA21DCB08300FCB141 /* AppDelegate.m in Sources */,
+				F1D8F73821DCBB3B00FCB141 /* DonGraphBarModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8F6F921DCB08400FCB141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D8F70221DCB08400FCB141 /* DonGraphViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8F70421DCB08400FCB141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D8F70D21DCB08400FCB141 /* DonGraphViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1D8F6FF21DCB08400FCB141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D8F6E421DCB08300FCB141 /* DonGraphView */;
+			targetProxy = F1D8F6FE21DCB08400FCB141 /* PBXContainerItemProxy */;
+		};
+		F1D8F70A21DCB08400FCB141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D8F6E421DCB08300FCB141 /* DonGraphView */;
+			targetProxy = F1D8F70921DCB08400FCB141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1D8F6EE21DCB08300FCB141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D8F6EF21DCB08300FCB141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1D8F6F321DCB08400FCB141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D8F6F421DCB08400FCB141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1D8F70F21DCB08400FCB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1D8F71021DCB08400FCB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1D8F71221DCB08400FCB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543EF6D5A8B6D1B288D6D258 /* Pods-DonGraphView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonGraphView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leixingti.www.DonGraphView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1D8F71321DCB08400FCB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBF877DB1274518E398200A /* Pods-DonGraphView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonGraphView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leixingti.www.DonGraphView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1D8F71521DCB08400FCB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonGraphViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leixingti.www.DonGraphViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonGraphView.app/DonGraphView";
+			};
+			name = Debug;
+		};
+		F1D8F71621DCB08400FCB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonGraphViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leixingti.www.DonGraphViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonGraphView.app/DonGraphView";
+			};
+			name = Release;
+		};
+		F1D8F71821DCB08400FCB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonGraphViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leixingti.www.DonGraphViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DonGraphView;
+			};
+			name = Debug;
+		};
+		F1D8F71921DCB08400FCB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DonGraphViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leixingti.www.DonGraphViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DonGraphView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1D8F6E021DCB08300FCB141 /* Build configuration list for PBXProject "DonGraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D8F70F21DCB08400FCB141 /* Debug */,
+				F1D8F71021DCB08400FCB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D8F71121DCB08400FCB141 /* Build configuration list for PBXNativeTarget "DonGraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D8F71221DCB08400FCB141 /* Debug */,
+				F1D8F71321DCB08400FCB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D8F71421DCB08400FCB141 /* Build configuration list for PBXNativeTarget "DonGraphViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D8F71521DCB08400FCB141 /* Debug */,
+				F1D8F71621DCB08400FCB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D8F71721DCB08400FCB141 /* Build configuration list for PBXNativeTarget "DonGraphViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D8F71821DCB08400FCB141 /* Debug */,
+				F1D8F71921DCB08400FCB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1D8F6DD21DCB08300FCB141 /* Project object */;
+}
