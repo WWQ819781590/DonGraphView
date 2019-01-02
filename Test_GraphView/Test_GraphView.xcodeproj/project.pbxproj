@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1B0602DD8B17DE3EB489E4 /* libPods-Test_GraphView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72157ED531E8ADE4648DBB0D /* libPods-Test_GraphView.a */; };
 		F111C70B21DC8C9600D0AD5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111C70A21DC8C9600D0AD5F /* AppDelegate.swift */; };
 		F111C70D21DC8C9600D0AD5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111C70C21DC8C9600D0AD5F /* ViewController.swift */; };
 		F111C71021DC8C9600D0AD5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F111C70E21DC8C9600D0AD5F /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		F111C71521DC8C9700D0AD5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F111C71321DC8C9700D0AD5F /* LaunchScreen.storyboard */; };
 		F111C72021DC8C9700D0AD5F /* Test_GraphViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111C71F21DC8C9700D0AD5F /* Test_GraphViewTests.swift */; };
 		F111C72B21DC8C9700D0AD5F /* Test_GraphViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111C72A21DC8C9700D0AD5F /* Test_GraphViewUITests.swift */; };
+		F1D8F6D921DC97E100FCB141 /* DonGraphBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F6D821DC97E100FCB141 /* DonGraphBarModel.swift */; };
+		F1D8F6DB21DC985D00FCB141 /* DonGraphPointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F6DA21DC985D00FCB141 /* DonGraphPointModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		396F3A2D4F28ECF0DADDCC27 /* Pods-Test_GraphView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_GraphView.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test_GraphView/Pods-Test_GraphView.release.xcconfig"; sourceTree = "<group>"; };
+		72157ED531E8ADE4648DBB0D /* libPods-Test_GraphView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test_GraphView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4561AC1F13E1A2C20428E87 /* Pods-Test_GraphView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_GraphView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test_GraphView/Pods-Test_GraphView.debug.xcconfig"; sourceTree = "<group>"; };
 		F111C70721DC8C9600D0AD5F /* Test_GraphView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_GraphView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F111C70A21DC8C9600D0AD5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F111C70C21DC8C9600D0AD5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,9 @@
 		F111C72621DC8C9700D0AD5F /* Test_GraphViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_GraphViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F111C72A21DC8C9700D0AD5F /* Test_GraphViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_GraphViewUITests.swift; sourceTree = "<group>"; };
 		F111C72C21DC8C9700D0AD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D8F6D221DC907A00FCB141 /* Test_GraphView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test_GraphView-Bridging-Header.h"; sourceTree = "<group>"; };
+		F1D8F6D821DC97E100FCB141 /* DonGraphBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonGraphBarModel.swift; sourceTree = "<group>"; };
+		F1D8F6DA21DC985D00FCB141 /* DonGraphPointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonGraphPointModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1B0602DD8B17DE3EB489E4 /* libPods-Test_GraphView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1789ADD2717408EE70D0FEE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72157ED531E8ADE4648DBB0D /* libPods-Test_GraphView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E5F7E7925B01EF739098E22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4561AC1F13E1A2C20428E87 /* Pods-Test_GraphView.debug.xcconfig */,
+				396F3A2D4F28ECF0DADDCC27 /* Pods-Test_GraphView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F111C6FE21DC8C9600D0AD5F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				F111C71E21DC8C9700D0AD5F /* Test_GraphViewTests */,
 				F111C72921DC8C9700D0AD5F /* Test_GraphViewUITests */,
 				F111C70821DC8C9600D0AD5F /* Products */,
+				3E5F7E7925B01EF739098E22 /* Pods */,
+				1789ADD2717408EE70D0FEE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +128,12 @@
 			children = (
 				F111C70A21DC8C9600D0AD5F /* AppDelegate.swift */,
 				F111C70C21DC8C9600D0AD5F /* ViewController.swift */,
+				F1D8F6D621DC979600FCB141 /* GraphView */,
 				F111C70E21DC8C9600D0AD5F /* Main.storyboard */,
 				F111C71121DC8C9700D0AD5F /* Assets.xcassets */,
 				F111C71321DC8C9700D0AD5F /* LaunchScreen.storyboard */,
 				F111C71621DC8C9700D0AD5F /* Info.plist */,
+				F1D8F6D221DC907A00FCB141 /* Test_GraphView-Bridging-Header.h */,
 			);
 			path = Test_GraphView;
 			sourceTree = "<group>";
@@ -125,6 +156,23 @@
 			path = Test_GraphViewUITests;
 			sourceTree = "<group>";
 		};
+		F1D8F6D621DC979600FCB141 /* GraphView */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8F6D721DC97B500FCB141 /* Model */,
+			);
+			path = GraphView;
+			sourceTree = "<group>";
+		};
+		F1D8F6D721DC97B500FCB141 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8F6D821DC97E100FCB141 /* DonGraphBarModel.swift */,
+				F1D8F6DA21DC985D00FCB141 /* DonGraphPointModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F111C72F21DC8C9700D0AD5F /* Build configuration list for PBXNativeTarget "Test_GraphView" */;
 			buildPhases = (
+				106BCA5161A8F3168A9F2A9B /* [CP] Check Pods Manifest.lock */,
 				F111C70321DC8C9600D0AD5F /* Sources */,
 				F111C70421DC8C9600D0AD5F /* Frameworks */,
 				F111C70521DC8C9600D0AD5F /* Resources */,
@@ -187,12 +236,14 @@
 		F111C6FF21DC8C9600D0AD5F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Don;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = hongchao.li;
 				TargetAttributes = {
 					F111C70621DC8C9600D0AD5F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					F111C71A21DC8C9700D0AD5F = {
 						CreatedOnToolsVersion = 10.1;
@@ -251,11 +302,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		106BCA5161A8F3168A9F2A9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test_GraphView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F111C70321DC8C9600D0AD5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D8F6D921DC97E100FCB141 /* DonGraphBarModel.swift in Sources */,
+				F1D8F6DB21DC985D00FCB141 /* DonGraphPointModel.swift in Sources */,
 				F111C70D21DC8C9600D0AD5F /* ViewController.swift in Sources */,
 				F111C70B21DC8C9600D0AD5F /* AppDelegate.swift in Sources */,
 			);
@@ -430,8 +504,10 @@
 		};
 		F111C73021DC8C9700D0AD5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4561AC1F13E1A2C20428E87 /* Pods-Test_GraphView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Test_GraphView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,6 +516,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leixingti.www.Test-GraphView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test_GraphView/Test_GraphView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,8 +525,10 @@
 		};
 		F111C73121DC8C9700D0AD5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 396F3A2D4F28ECF0DADDCC27 /* Pods-Test_GraphView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Test_GraphView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +537,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leixingti.www.Test-GraphView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test_GraphView/Test_GraphView-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
