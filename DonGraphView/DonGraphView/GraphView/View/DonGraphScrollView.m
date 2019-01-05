@@ -153,7 +153,7 @@
         }
     });
 }
-#pragma mark  ======  柱状图
+#pragma mark - 柱状图
 - (void)drawBarViewWith:(NSArray <DonGraphPointModel *>*)pointArray{
     
     self.scrollView.hidden = YES;

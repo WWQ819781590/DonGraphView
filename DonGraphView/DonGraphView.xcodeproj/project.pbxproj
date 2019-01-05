@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9ED903B321E054A300382993 /* CAShapeLayer+DonLineShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED903B221E054A300382993 /* CAShapeLayer+DonLineShapeLayer.m */; };
 		B06B997BB2FE44CFDFB5C940 /* libPods-DonGraphView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F950A94296FFC46E2BCF04 /* libPods-DonGraphView.a */; };
 		F1D8F6EA21DCB08300FCB141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F6E921DCB08300FCB141 /* AppDelegate.m */; };
 		F1D8F6ED21DCB08300FCB141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8F6EC21DCB08300FCB141 /* ViewController.m */; };
@@ -44,6 +45,8 @@
 /* Begin PBXFileReference section */
 		1BBF877DB1274518E398200A /* Pods-DonGraphView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonGraphView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonGraphView/Pods-DonGraphView.release.xcconfig"; sourceTree = "<group>"; };
 		543EF6D5A8B6D1B288D6D258 /* Pods-DonGraphView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonGraphView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonGraphView/Pods-DonGraphView.debug.xcconfig"; sourceTree = "<group>"; };
+		9ED903B121E054A300382993 /* CAShapeLayer+DonLineShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+DonLineShapeLayer.h"; sourceTree = "<group>"; };
+		9ED903B221E054A300382993 /* CAShapeLayer+DonLineShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+DonLineShapeLayer.m"; sourceTree = "<group>"; };
 		A7F950A94296FFC46E2BCF04 /* libPods-DonGraphView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DonGraphView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D8F6E521DCB08300FCB141 /* DonGraphView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonGraphView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D8F6E821DCB08300FCB141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -214,6 +217,8 @@
 			children = (
 				F1D8F74321DCBBB100FCB141 /* UIColor+DonHexColor.h */,
 				F1D8F74421DCBBB100FCB141 /* UIColor+DonHexColor.m */,
+				9ED903B121E054A300382993 /* CAShapeLayer+DonLineShapeLayer.h */,
+				9ED903B221E054A300382993 /* CAShapeLayer+DonLineShapeLayer.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -379,6 +384,7 @@
 				F1D8F74221DCBB5C00FCB141 /* DonLineView.m in Sources */,
 				F1D8F6F821DCB08400FCB141 /* main.m in Sources */,
 				F1D8F6EA21DCB08300FCB141 /* AppDelegate.m in Sources */,
+				9ED903B321E054A300382993 /* CAShapeLayer+DonLineShapeLayer.m in Sources */,
 				F1D8F73821DCBB3B00FCB141 /* DonGraphBarModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
